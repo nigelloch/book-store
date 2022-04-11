@@ -14,5 +14,25 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.10",
+    "apollo-server-express": "^3.6.7",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "faker": "^6.6.6",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.2.9",
+    "react-router-dom": "^5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nigelloch/book-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nigelloch/book-store/issues"
+  },
+  "homepage": "https://github.com/nigelloch/book-store#readme"
 }

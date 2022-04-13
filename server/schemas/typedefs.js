@@ -14,8 +14,8 @@ type Mutation {
         email: String!, 
         password: String!
         ): Auth
-    saveBook(author: String!): Book
-    removeBook(bookId: String!): Book
+    saveBook(input: savedBook!): User
+    removeBook(bookId: ID!): User
 }
 
 type User {

@@ -14,8 +14,17 @@ type Mutation {
         email: String!, 
         password: String!
         ): Auth
-    saveBook(input: savedBook!): User
+    saveBook(input: SavedBook!): User
     removeBook(bookId: ID!): User
+}
+
+input SavedBook {
+  author: [String]
+  description: String!
+  title: String!
+  bookId: String!
+  image: String!
+  link: String!
 }
 
 type User {
@@ -28,10 +37,10 @@ type User {
 
 type Book {
     _id: ID!
-    author: String!
+    author: [String]
     description: String!
     title: String!
-    bookId: ID!
+    bookId: String!
     image: String!
     link: String!
 }

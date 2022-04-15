@@ -20,7 +20,7 @@ No installation necessary
 
 ##  Usage
 
-User will navigate to the hosted application using the following link:
+User will navigate to the hosted application using the following link: <https://book-store-nl.herokuapp.com/>
 
 ##  Tests
 
